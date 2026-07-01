@@ -1,7 +1,7 @@
 async function permittedCharacteers() {
     let permitted = []
 
-    if(process.env.UPERCASE_LETTERS === "true"){
+    if(process.env.UPPERCASE_LETTERS === "true"){
         permitted.push(..."ABCDEFGHIJKLMNOPQRSTUVWXYZ");
     }
 
@@ -15,7 +15,7 @@ async function permittedCharacteers() {
     }
 
 
-     if(process.env.SPECIAL_CARACTERS === "true"){
+     if(process.env.SPECIAL_CHARACTERS === "true"){
         permitted.push(..."!@#$%^&*()-_");
     }
     
